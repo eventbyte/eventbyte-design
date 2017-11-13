@@ -6,6 +6,23 @@
 
 --------------------------------------------------------------------------------
 
+## Features
+
+- Welcome onboarding
+- See list of events
+- Authentication
+  - Sign up as a new user with confirmation email
+  - Sign in as an existing user
+  - Sign out
+  - Forgot password via email
+- Registered user actions
+  - Post a new event
+    - Fill the information about the URL, title/name, description, location, date and time
+  - Update and delete a posted event
+  - Star an event
+
+--------------------------------------------------------------------------------
+
 ## Inspirations
 
 - https://facebook.com/events
@@ -150,14 +167,14 @@
   _id: ObjectId(), // unique
   id: 1, // unique
   submitter: ObjectId(), // User
-  title: "Impact Byte Hackathon Premiere", // required
-  description: "All fun of premier hackathon for the first timer developers.", // optional
-  image: "https://website.com/impactbyte-hackathon-premiere.jpg", // optional
   origin: {
     image: "https://meetup.com/ImpactByte/events/12345678/cover.jpg", // optional
     url: "https://meetup.com/ImpactByte/events/12345678", // required
     site: "Meetup" // optional
   },
+  title: "Impact Byte Hackathon Premiere", // required
+  description: "All fun of premier hackathon for the first timer developers.", // optional
+  image: "https://website.com/impactbyte-hackathon-premiere.jpg", // optional
   meta: {
     visible: true, // required
     verified: true, // required
