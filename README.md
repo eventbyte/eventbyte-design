@@ -12,9 +12,10 @@ EventByte is an event aggregator of any technical events or meetups.
 
 EventByte's mission is to help educate people through technology to move humanity forward. By guiding aspiring technologists through various gatherings and events around the world.
 
-- https://eventbyte.co
-- https://event.impactbyte.com
-- https://mhaidarhanif.com/event
+- Official: https://eventbyte.co
+- Subdomain: https://event.impactbyte.com
+- Redirect: https://mhaidarhanif.com/event
+- Prototype: https://invis.io/SAEFR7BRQ
 
 --------------------------------------------------------------------------------
 
@@ -191,7 +192,8 @@ EventByte's mission is to help educate people through technology to move humanit
     visible: true, // required
     verified: true, // required
     flagged: false // required
-    price: 0, // optional
+    priceMin: 0, // optional
+    priceMax: 0, // optional
     currency: "IDR", // optional
     categories: [ "Competition" ], // optional
     topics: [ "Science", "Technology", "Software", "Developer", "Hackathon" ], // optional
@@ -202,7 +204,7 @@ EventByte's mission is to help educate people through technology to move humanit
     timezone: "GMT+7" // optional
   },
   location: {
-    method: "Onsite", // required
+    method: [ "Onsite" ], // required
     detail: "Impact Hub Jakarta, Kemang", // optional
     city: "Jakarta", // optional
     country: "Indonesia", // optional
