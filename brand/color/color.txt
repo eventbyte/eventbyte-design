@@ -1,0 +1,4 @@
+blue-dark: 384276
+blue-light: 4b5e99
+purple-light: 5e35b1
+purple-light: b39ddb

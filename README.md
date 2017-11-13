@@ -1,4 +1,12 @@
-# Design
+<div style="text-align: center;">
+  <a href="https://event.impactbyte.com">
+    <h1>
+      <img src="./brand/logo/eventbyte.png" alt="EventByte Logo">
+    </h1>
+  </a>
+</div>
+
+# EventByte Design
 
 - https://eventbyte.co
 - https://event.impactbyte.com
