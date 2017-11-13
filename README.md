@@ -8,6 +8,10 @@
 
 # EventByte Design
 
+EventByte is an event aggregator of any technical events or meetups.
+
+EventByte's mission is to help educate people through technology to move humanity forward. By guiding aspiring technologists through various gatherings and events around the world.
+
 - https://eventbyte.co
 - https://event.impactbyte.com
 - https://mhaidarhanif.com/event
