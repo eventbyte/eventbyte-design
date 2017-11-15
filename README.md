@@ -159,7 +159,12 @@ EventByte's mission is to help educate people through technology to move humanit
     googleplus: "https://google.com/+MHaidarHanif" // optional
     github: "https://github.com/mhaidarh" // optional
   },
-  events: [ // optional
+  eventsSubmitted: [ // Event
+    ObjectId(),
+    ObjectId(),
+    ObjectId()
+  ],
+  eventsSaved: [ // Event
     ObjectId(),
     ObjectId(),
     ObjectId()
@@ -210,13 +215,13 @@ EventByte's mission is to help educate people through technology to move humanit
     country: "Indonesia", // optional
     map: "https://goo.gl/maps/2Frvba3Nrp82" // optional
   },
-  stars: [ // optional
-    ObjectId(), // User
-    ObjectId(), // User
-    ObjectId() // User
+  savedBy: [ // User
+    ObjectId(),
+    ObjectId(),
+    ObjectId()
   ],
-  participants: [], // later
-  discussions: [] // later
+  joinedBy: [], // later
+  discussedBy: [] // later
   sponsored: {
     status: true, // optional
     dateStart: ISODate(), // optional
