@@ -13,27 +13,30 @@ const event = {
   meta: {
     visible: true, // required
     verified: true, // required
-    flagged: false, // required
-    priceMin: 0, // optional
-    priceMax: 0, // optional
-    currency: "IDR", // optional
-    topics: [
-      "Competition",
-      "Science",
-      "Technology",
-      "Software",
-      "Developer",
-      "Hackathon"
-    ] // optional
+    flagged: false // required
   },
+  price: {
+    min: 0, // optional
+    max: 0, // optional
+    currency: "IDR" // optional
+  },
+  topics: [
+    // optional
+    "Competition",
+    "Science",
+    "Technology",
+    "Software",
+    "Developer",
+    "Hackathon"
+  ],
   schedule: {
-    dateStart: ISODate(), // required
-    dateEnd: ISODate(), // optional
+    start: ISODate(), // required
+    end: ISODate(), // optional
     timezone: "GMT+7" // optional
   },
   location: {
     method: ["Onsite"], // required
-    detail: "Impact Hub Jakarta, Kemang", // optional
+    address: "Impact Hub Jakarta, Kemang", // optional
     city: "Jakarta", // optional
     country: "Indonesia", // optional
     map: "https://goo.gl/maps/2Frvba3Nrp82" // optional
@@ -56,5 +59,9 @@ const event = {
     vanity: "https://eventbyte.co/event/impactbyte-hackathon-premiere" // optional
   },
   createdAt: ISODate(), // timestamp
-  updatedAt: ISODate() // timestamp
+  createdBy: ObjectId(), // timestamp
+  updatedAt: ISODate(), // timestamp
+  updatedBy: ObjectId(), // timestamp
+  deletedAt: ISODate(), // timestamp
+  deletedBy: ObjectId() // timestamp
 }

@@ -13,5 +13,9 @@ const event = {
     vanity: "https://eventbyte.co/topic/competition" // optional
   },
   createdAt: ISODate(), // timestamp
-  updatedAt: ISODate() // timestamp
+  createdBy: ObjectId(), // timestamp
+  updatedAt: ISODate(), // timestamp
+  updatedBy: ObjectId(), // timestamp
+  deletedAt: ISODate(), // timestamp
+  deletedBy: ObjectId() // timestamp
 }
