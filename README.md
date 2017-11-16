@@ -101,11 +101,12 @@ EventByte's mission is to help educate people through technology to move humanit
   - [x] https://eventbyte.co/auth/is-authenticated `GET`
   - [x] https://eventbyte.co/auth/is-authorized `GET`
 - [x] https://eventbyte.co/api/users `GET`, `POST`, `DELETE`
-  - [x] https://eventbyte.co/api/users/id/123 `GET`, `POST`, `PUT`, `DELETE`
-  - [x] https://eventbyte.co/api/users/slug/mhaidarhanif `GET`, `POST`, `PUT`, `DELETE`
+  - [x] https://eventbyte.co/api/users/id/123 `GET`, `PUT`, `DELETE`
+  - [x] https://eventbyte.co/api/users/id/123/events `GET`, `POST`, `PUT`, `DELETE`
+  - [ ] https://eventbyte.co/api/users/slug/mhaidarhanif `GET`, `PUT`, `DELETE`
 - [x] https://eventbyte.co/api/events `GET`, `POST`, `DELETE`
   - [x] https://eventbyte.co/api/events/id/123 `GET`, `POST`, `PUT`, `DELETE`
-  - [x] https://eventbyte.co/api/events/slug/impactbyte-hackathon-premiere `GET`, `POST`, `PUT`, `DELETE`
+  - [ ] https://eventbyte.co/api/events/slug/impactbyte-hackathon-premiere `GET`, `POST`, `PUT`, `DELETE`
   - [ ] https://eventbyte.co/api/events/id/123/participants `GET`, `POST`, `PUT`, `DELETE`
   - [ ] https://eventbyte.co/api/events/id/123/discussions `GET`, `POST`, `PUT`, `DELETE`
 - [x] https://eventbyte.co/api/topics `GET`, `POST`, `DELETE`
